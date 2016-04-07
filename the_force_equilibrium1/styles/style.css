@@ -1,0 +1,337 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+
+body 
+{
+	line-height: 1;
+	background-color: #1A1A1A;
+}
+
+.star1
+{
+	color: #FFFF00;
+	font-family: 'Exo', sans-serif;
+}
+
+.star2
+{
+	color: #787878;
+	font-family: 'Exo', sans-serif;
+}
+
+
+.container
+{
+	margin: 0;
+	padding: 0;
+	background-color: #1A1A1A;
+}
+
+#header
+{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #1A1A1A;
+}
+
+#header img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1348px;
+}
+
+
+#form1
+{
+	position: absolute;
+	top: 45px;
+	left: 800px;
+}
+
+#form1 input[type=text]
+{
+	width: 250px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#form1 input[type=text]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+
+#form1 input[type=password]
+{
+	width: 250px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+#form1 input[type=password]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+#form1 button
+{
+	width: 200px;
+	height: 40px;
+	background: #00FFFF;
+	border: 1px solid #00FFFF;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #585858;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+#form1 button:hover
+{
+	opacity: 0.8;
+}
+
+#form1 button:active
+{
+	opacity: 0.6;
+}
+
+#form1 button:focus
+{
+	outline: none;
+}
+
+#content
+{
+	width: 1000px;
+	height: 600px;
+	margin: 0;
+}
+
+#content img
+{
+	float:left; 
+	margin-left: -50px;
+	margin-top: 66px;
+	height: 530px;
+	width: 855px;
+}
+
+#form2
+{
+	float: right;
+	margin-top: 100px;
+	margin-right: -330px;
+}
+
+
+#form2 input[type=text]
+{
+	width: 250px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#form2 input[type=password]
+{
+	width: 250px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-left: 10px;
+}
+
+#form2 input[type=email]
+{
+	width: 250px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#form2 input[type=date]
+{
+	width: 165px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #989898;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#form2 select
+{
+	width: 252px;
+	height: 40px;
+	background: transparent;
+	background-color: #1A1A1A; 
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #989898;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#form2 button{
+	width: 200px;
+	height: 40px;
+	background: #00FFFF;
+	border: 1px solid #00FFFF;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #585858;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+#form2 button:hover
+{
+	opacity: 0.8;
+}
+
+#form2 button:active
+{
+	opacity: 0.6;
+}
+
+#form2 button:focus
+{
+	outline: none;
+}
+
+#form2 input[type=text]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+#form2 input[type=password]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+#form2 input[type=date]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+#form2 input[type=password]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+#form2 input[type=email]:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+#form2 select:focus
+{
+	border: 1px solid rgba(0,255,255,0.9);
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #1A1A1A;
+	position: relative;
+}
+
+#footer img
+{
+	width: 1348px;
+	height: 200px;
+
+}
+
+h4
+{
+	position: absolute;
+	bottom: 5px;
+}
+
